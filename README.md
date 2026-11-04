@@ -16,7 +16,7 @@ Configuración personal de `dns10011`.
 
 ## Restaurar
 ```bash
-git clone git@github.com:DevAldx/dotfiles.git ~/dotfiles
+git clone https://github.com/DevAldx/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh --packages   # o ./install.sh solo para las configs
 ```
