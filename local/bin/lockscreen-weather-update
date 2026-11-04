@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+# Actualiza los datos del clima que lee la pantalla de bloqueo.
+# La pantalla de bloqueo de KDE no tiene acceso a Internet ni puede leer
+# archivos arbitrarios, por eso se descargan aquí y se guardan como un
+# pequeño módulo QML dentro del tema del bloqueo.
+
+set -u
+
+CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/kscreenlocker-weather"
+CACHE_FILE="$CACHE_DIR/weather.json"
+TMP_FILE="$CACHE_FILE.tmp.$$"
+
+THEME_DIR="${LOCKSCREEN_THEME_DIR:-$HOME/.local/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen}"
+WEATHER_JS="$THEME_DIR/weatherdata.js"
+TMP_JS="$WEATHER_JS.tmp.$$"
+
+# Ciudad de México. Cambia latitud/longitud si vives en otro lugar.
+LAT="19.4326"
+LON="-99.1332"
+
+URL="https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}&current=temperature_2m,apparent_temperature,is_day,weather_code,relative_humidity_2m,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=America%2FMexico_City&forecast_days=3"
+
+mkdir -p "$CACHE_DIR"
+
+if ! curl --fail --silent --show-error --location --max-time 20 --retry 2 --retry-delay 5 "$URL" -o "$TMP_FILE"; then
+    rm -f "$TMP_FILE"
+    exit 1
+fi
+
+# No publiques una respuesta incompleta: si falta current/daily, se descarta.
+if ! python3 -c 'import json,sys; d=json.load(open(sys.argv[1])); assert "current" in d and "daily" in d' "$TMP_FILE" 2>/dev/null; then
+    rm -f "$TMP_FILE"
+    exit 1
+fi
+
+mv "$TMP_FILE" "$CACHE_FILE"
+chmod 644 "$CACHE_FILE"
+
+# Genera el módulo QML que lee la pantalla de bloqueo.
+if [ -d "$THEME_DIR" ]; then
+    {
+        printf '.pragma library\nvar data = '
+        cat "$CACHE_FILE"
+        printf ';\n'
+    } > "$TMP_JS"
+    chmod 644 "$TMP_JS"
+    mv "$TMP_JS" "$WEATHER_JS"
+fi
+
+# Copia también los datos al tema de inicio de sesión (SDDM), si existe y
+# el archivo es tuyo (lo deja así el instalador del tema).
+SDDM_JS=/usr/share/sddm/themes/bloqueo/weatherdata.js
+if [ -w "$SDDM_JS" ] && [ -f "$WEATHER_JS" ]; then
+    cat "$WEATHER_JS" > "$SDDM_JS"
+fi

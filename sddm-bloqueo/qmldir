@@ -1,0 +1,2 @@
+singleton FontConfig 1.0 FontConfig.qml
+singleton Fx 1.0 Fx.qml

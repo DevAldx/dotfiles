@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Vidrio
+Comment=Bordes redondeados, borde degradado y botones de color
+X-KDE-PluginInfo-Author=Claude para dns10011
+X-KDE-PluginInfo-Name=Vidrio
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-License=GPL_V3
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-blur=true

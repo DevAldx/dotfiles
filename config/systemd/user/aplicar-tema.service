@@ -1,0 +1,13 @@
+[Unit]
+Description=Aplicar tema Urabe (fondo + transparencia) al iniciar y al reanudar
+Documentation=man:systemd.special(7)
+After=suspend.target
+PartOf=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/limpieza-pc/aplicar-tema.sh
+TimeoutStartSec=90
+
+[Install]
+WantedBy=default.target suspend.target

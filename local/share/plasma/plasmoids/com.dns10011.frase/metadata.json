@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "dns10011" }],
+    "Category": "Utilities",
+    "Description": "Saludo y frase del día",
+    "Icon": "format-text-blockquote",
+    "Id": "com.dns10011.frase",
+    "License": "GPL-2.0+",
+    "Name": "Frase del día (cristal)",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

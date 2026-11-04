@@ -1,0 +1,13 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel/Wallpaper",
+    "KPlugin": {
+        "Authors": [ { "Name": "dns10011" } ],
+        "Category": "",
+        "Description": "Fondo Urabe",
+        "Id": "urabeback",
+        "License": "CC-BY-SA",
+        "Name": "Urabe",
+        "Version": "1.0"
+    },
+    "X-Plasma-APIVersion": "2"
+}

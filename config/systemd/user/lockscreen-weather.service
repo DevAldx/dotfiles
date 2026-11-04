@@ -1,0 +1,8 @@
+[Unit]
+Description=Actualizar los datos del clima de la pantalla de bloqueo
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/dns10011/.local/bin/lockscreen-weather-update

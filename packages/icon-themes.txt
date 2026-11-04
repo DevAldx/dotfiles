@@ -1,0 +1,4 @@
+hicolor
+kora
+WhiteSur-purple
+WhiteSur-purple-dark

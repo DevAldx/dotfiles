@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "dns10011" }],
+    "Category": "Utilities",
+    "Description": "CPU, RAM, disco y red con estilo de cristal",
+    "Icon": "utilities-system-monitor",
+    "Id": "com.dns10011.sistema",
+    "License": "GPL-2.0+",
+    "Name": "Sistema (cristal)",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

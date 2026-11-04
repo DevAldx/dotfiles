@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="362"><defs>
+  <linearGradient id="decoration-tg" x1="0" y1="18" x2="0" y2="50" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#302a5c" stop-opacity="0.74"/>
+    <stop offset="1" stop-color="#1a1830" stop-opacity="0.74"/>
+  </linearGradient>
+  <linearGradient id="decoration-st" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#b9cdff" stop-opacity="0.8"/>
+    <stop offset="1" stop-color="#d6bcff" stop-opacity="0.8"/>
+  </linearGradient><radialGradient id="decoration-s-tl" cx="30" cy="30" r="30" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="0.4000" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient><linearGradient id="decoration-s-t" x1="0" y1="0" x2="0" y2="18" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.38"/></linearGradient><radialGradient id="decoration-s-tr" cx="60" cy="30" r="30" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="0.4000" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient><linearGradient id="decoration-s-l" x1="0" y1="0" x2="18" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.38"/></linearGradient><linearGradient id="decoration-s-r" x1="90" y1="0" x2="72" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.38"/></linearGradient><radialGradient id="decoration-s-bl" cx="22" cy="82" r="22" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="0.1818" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient><linearGradient id="decoration-s-b" x1="0" y1="104" x2="0" y2="86" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.38"/></linearGradient><radialGradient id="decoration-s-br" cx="68" cy="82" r="22" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="0.1818" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient></defs><defs>
+  <linearGradient id="decoration-inactive-tg" x1="0" y1="18" x2="0" y2="50" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#1d1c2a" stop-opacity="0.78"/>
+    <stop offset="1" stop-color="#16151f" stop-opacity="0.78"/>
+  </linearGradient>
+  <linearGradient id="decoration-inactive-st" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0.16"/>
+  </linearGradient><radialGradient id="decoration-inactive-s-tl" cx="30" cy="154" r="30" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="0.4000" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient><linearGradient id="decoration-inactive-s-t" x1="0" y1="124" x2="0" y2="142" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.38"/></linearGradient><radialGradient id="decoration-inactive-s-tr" cx="60" cy="154" r="30" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="0.4000" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient><linearGradient id="decoration-inactive-s-l" x1="0" y1="0" x2="18" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.38"/></linearGradient><linearGradient id="decoration-inactive-s-r" x1="90" y1="0" x2="72" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.38"/></linearGradient><radialGradient id="decoration-inactive-s-bl" cx="22" cy="206" r="22" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="0.1818" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient><linearGradient id="decoration-inactive-s-b" x1="0" y1="228" x2="0" y2="210" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.38"/></linearGradient><radialGradient id="decoration-inactive-s-br" cx="68" cy="206" r="22" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="0.1818" stop-color="#000" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient></defs><g id="decoration-topleft">
+  <rect x="0" y="0" width="30" height="50" fill="url(#decoration-s-tl)"/>
+  <path d="M18,50 V30 A12,12 0 0 1 30,18 H30 V50 Z" fill="url(#decoration-tg)"/>
+  <path d="M18.5,50 V30 A11.5,11.5 0 0 1 30,18.5 H30" fill="none" stroke="#b9cdff" stroke-opacity="0.8" stroke-width="1"/>
+  <path d="M19.5,32 A10.5,10.5 0 0 1 30,19.5 H30" fill="none" stroke="#fff" stroke-opacity="0.38" stroke-width="1"/>
+</g>
+<g id="decoration-top">
+  <rect x="40" y="0" width="10" height="18" fill="url(#decoration-s-t)"/>
+  <rect x="40" y="18" width="10" height="32" fill="url(#decoration-tg)"/>
+  <rect x="40" y="18" width="10" height="1" fill="url(#decoration-st)"/>
+  <rect x="40" y="19" width="10" height="1" fill="#fff" fill-opacity="0.38"/>
+</g>
+<g id="decoration-topright">
+  <rect x="60" y="0" width="30" height="50" fill="url(#decoration-s-tr)"/>
+  <path d="M60,18 A12,12 0 0 1 72,30 V50 H60 Z" fill="url(#decoration-tg)"/>
+  <path d="M60,18.5 A11.5,11.5 0 0 1 71.5,30 V50" fill="none" stroke="#d6bcff" stroke-opacity="0.8" stroke-width="1"/>
+  <path d="M60,19.5 A10.5,10.5 0 0 1 70.5,32" fill="none" stroke="#fff" stroke-opacity="0.38" stroke-width="1"/>
+</g>
+<g id="decoration-left">
+  <rect x="0" y="60" width="18" height="10" fill="url(#decoration-s-l)"/>
+  <rect x="18" y="60" width="12" height="10" fill="#1a1830" fill-opacity="0.74"/>
+  <rect x="18" y="60" width="1" height="10" fill="#b9cdff" fill-opacity="0.8"/>
+</g>
+<g id="decoration-center"><rect x="40" y="60" width="10" height="10" fill="#1a1830" fill-opacity="0.74"/></g>
+<g id="decoration-right">
+  <rect x="72" y="60" width="18" height="10" fill="url(#decoration-s-r)"/>
+  <rect x="60" y="60" width="12" height="10" fill="#1a1830" fill-opacity="0.74"/>
+  <rect x="71" y="60" width="1" height="10" fill="#d6bcff" fill-opacity="0.8"/>
+</g>
+<g id="decoration-bottomleft">
+  <rect x="0" y="80" width="30" height="24" fill="url(#decoration-s-bl)"/>
+  <path d="M18,80 V82 A4,4 0 0 0 22,86 H30 V80 Z" fill="#1a1830" fill-opacity="0.74"/>
+  <path d="M18.5,80 V82 A3.5,3.5 0 0 0 22,85.5 H30" fill="none" stroke="#b9cdff" stroke-opacity="0.8" stroke-width="1"/>
+</g>
+<g id="decoration-bottom">
+  <rect x="40" y="80" width="10" height="6" fill="#1a1830" fill-opacity="0.74"/>
+  <rect x="40" y="86" width="10" height="18" fill="url(#decoration-s-b)"/>
+  <rect x="40" y="85" width="10" height="1" fill="url(#decoration-st)"/>
+</g>
+<g id="decoration-bottomright">
+  <rect x="60" y="80" width="30" height="24" fill="url(#decoration-s-br)"/>
+  <path d="M60,80 V86 H68 A4,4 0 0 0 72,82 V80 Z" fill="#1a1830" fill-opacity="0.74"/>
+  <path d="M60,85.5 H68 A3.5,3.5 0 0 0 71.5,82 V80" fill="none" stroke="#d6bcff" stroke-opacity="0.8" stroke-width="1"/>
+</g>
+<g id="decoration-inactive-topleft">
+  <rect x="0" y="124" width="30" height="50" fill="url(#decoration-inactive-s-tl)"/>
+  <path d="M18,174 V154 A12,12 0 0 1 30,142 H30 V174 Z" fill="url(#decoration-inactive-tg)"/>
+  <path d="M18.5,174 V154 A11.5,11.5 0 0 1 30,142.5 H30" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+  <path d="M19.5,156 A10.5,10.5 0 0 1 30,143.5 H30" fill="none" stroke="#fff" stroke-opacity="0.12" stroke-width="1"/>
+</g>
+<g id="decoration-inactive-top">
+  <rect x="40" y="124" width="10" height="18" fill="url(#decoration-inactive-s-t)"/>
+  <rect x="40" y="142" width="10" height="32" fill="url(#decoration-inactive-tg)"/>
+  <rect x="40" y="142" width="10" height="1" fill="url(#decoration-inactive-st)"/>
+  <rect x="40" y="143" width="10" height="1" fill="#fff" fill-opacity="0.12"/>
+</g>
+<g id="decoration-inactive-topright">
+  <rect x="60" y="124" width="30" height="50" fill="url(#decoration-inactive-s-tr)"/>
+  <path d="M60,142 A12,12 0 0 1 72,154 V174 H60 Z" fill="url(#decoration-inactive-tg)"/>
+  <path d="M60,142.5 A11.5,11.5 0 0 1 71.5,154 V174" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+  <path d="M60,143.5 A10.5,10.5 0 0 1 70.5,156" fill="none" stroke="#fff" stroke-opacity="0.12" stroke-width="1"/>
+</g>
+<g id="decoration-inactive-left">
+  <rect x="0" y="184" width="18" height="10" fill="url(#decoration-inactive-s-l)"/>
+  <rect x="18" y="184" width="12" height="10" fill="#16151f" fill-opacity="0.78"/>
+  <rect x="18" y="184" width="1" height="10" fill="#ffffff" fill-opacity="0.16"/>
+</g>
+<g id="decoration-inactive-center"><rect x="40" y="184" width="10" height="10" fill="#16151f" fill-opacity="0.78"/></g>
+<g id="decoration-inactive-right">
+  <rect x="72" y="184" width="18" height="10" fill="url(#decoration-inactive-s-r)"/>
+  <rect x="60" y="184" width="12" height="10" fill="#16151f" fill-opacity="0.78"/>
+  <rect x="71" y="184" width="1" height="10" fill="#ffffff" fill-opacity="0.16"/>
+</g>
+<g id="decoration-inactive-bottomleft">
+  <rect x="0" y="204" width="30" height="24" fill="url(#decoration-inactive-s-bl)"/>
+  <path d="M18,204 V206 A4,4 0 0 0 22,210 H30 V204 Z" fill="#16151f" fill-opacity="0.78"/>
+  <path d="M18.5,204 V206 A3.5,3.5 0 0 0 22,209.5 H30" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+</g>
+<g id="decoration-inactive-bottom">
+  <rect x="40" y="204" width="10" height="6" fill="#16151f" fill-opacity="0.78"/>
+  <rect x="40" y="210" width="10" height="18" fill="url(#decoration-inactive-s-b)"/>
+  <rect x="40" y="209" width="10" height="1" fill="url(#decoration-inactive-st)"/>
+</g>
+<g id="decoration-inactive-bottomright">
+  <rect x="60" y="204" width="30" height="24" fill="url(#decoration-inactive-s-br)"/>
+  <path d="M60,204 V210 H68 A4,4 0 0 0 72,206 V204 Z" fill="#16151f" fill-opacity="0.78"/>
+  <path d="M60,209.5 H68 A3.5,3.5 0 0 0 71.5,206 V204" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+</g><rect id="mask-topleft" x="0" y="248" width="30" height="50" fill="#000"/>
+<rect id="mask-top" x="40" y="248" width="10" height="50" fill="#000"/>
+<rect id="mask-topright" x="60" y="248" width="30" height="50" fill="#000"/>
+<rect id="mask-left" x="0" y="308" width="30" height="10" fill="#000"/>
+<rect id="mask-center" x="40" y="308" width="10" height="10" fill="#000"/>
+<rect id="mask-right" x="60" y="308" width="30" height="10" fill="#000"/>
+<rect id="mask-bottomleft" x="0" y="328" width="30" height="24" fill="#000"/>
+<rect id="mask-bottom" x="40" y="328" width="10" height="24" fill="#000"/>
+<rect id="mask-bottomright" x="60" y="328" width="30" height="24" fill="#000"/></svg>

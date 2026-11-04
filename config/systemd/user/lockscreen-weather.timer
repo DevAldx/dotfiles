@@ -1,0 +1,10 @@
+[Unit]
+Description=Actualizar el clima de la pantalla de bloqueo cada 15 minutos
+
+[Timer]
+OnActiveSec=30s
+OnUnitActiveSec=15min
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

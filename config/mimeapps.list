@@ -1,0 +1,6 @@
+[Added Associations]
+audio/midi=mpv.desktop;
+
+[Default Applications]
+audio/midi=mpv.desktop;
+x-scheme-handler/claude-cli=claude-code-url-handler.desktop

@@ -1,0 +1,36 @@
+// Fastfetch con logo anime ("Kemonomimi girl in chibi style", Wikimedia Commons, CC BY-SA 3.0)
+// Para volver al logo de CachyOS: borra o renombra este archivo.
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file-raw",
+    "source": "~/.config/fastfetch/anime-logo.txt",
+    "width": 43,
+    "height": 25,
+    "padding": { "top": 1, "left": 1, "right": 3 }
+  },
+  "display": {
+    "separator": "  ",
+    "color": { "keys": "38;2;150;215;245", "title": "38;2;245;150;170" },
+    "key": { "width": 9 }
+  },
+  "modules": [
+    "break",
+    "break",
+    "break",
+    { "type": "title", "format": "{user-name-colored}@{host-name-colored}" },
+    { "type": "custom", "format": "\u001b[38;2;245;150;170m─────────────────────────" },
+    { "type": "os",       "key": "󰣇 OS",     "format": "{pretty-name}" },
+    { "type": "kernel",   "key": " Kernel" },
+    { "type": "uptime",   "key": "󰅐 Uptime" },
+    { "type": "packages", "key": "󰏖 Pkgs" },
+    { "type": "shell",    "key": " Shell" },
+    { "type": "de",       "key": "󰧨 DE" },
+    { "type": "cpu",      "key": " CPU",    "format": "{name}" },
+    { "type": "gpu",      "key": "󰢮 GPU",    "format": "{name}" },
+    { "type": "memory",   "key": " RAM" },
+    { "type": "disk",     "key": "󰋊 Disk",   "folders": "/" },
+    "break",
+    { "type": "colors", "symbol": "circle" }
+  ]
+}

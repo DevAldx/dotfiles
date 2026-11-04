@@ -1,0 +1,18 @@
+MenuBar=Disabled
+
+[Desktop Entry]
+DefaultProfile=Vidrio.profile
+
+[General]
+ConfigVersion=1
+
+[KonsoleWindow]
+ShowProgressInTaskBar=false
+
+[Notification Messages]
+CloseAllEmptyTabs=true
+CloseAllTabs=true
+ShowPasteHugeTextWarning=false
+
+[UiSettings]
+ColorScheme=

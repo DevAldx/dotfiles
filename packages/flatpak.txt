@@ -1,0 +1,4 @@
+com.brave.Browser
+com.nvidia.geforcenow
+com.usebottles.bottles
+org.audacityteam.Audacity

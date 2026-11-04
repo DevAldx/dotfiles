@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "dns10011" }],
+    "Category": "Utilities",
+    "Description": "Calendario del mes",
+    "Icon": "view-calendar",
+    "Id": "com.dns10011.calendario",
+    "License": "GPL-2.0+",
+    "Name": "Calendario (cristal)",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

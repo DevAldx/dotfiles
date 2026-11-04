@@ -1,0 +1,9 @@
+[Daemon]
+Autolock=false
+LockOnResume=true
+Timeout=0
+
+[Greeter][Wallpaper][org.kde.image][General]
+FillMode=2
+Image=/home/dns10011/Descargas/wallhaven-49972w_1920x1080.png
+PreviewImage=/home/dns10011/Descargas/wallhaven-49972w_1920x1080.png

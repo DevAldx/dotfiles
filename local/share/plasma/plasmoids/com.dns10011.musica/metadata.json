@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "dns10011" }],
+    "Category": "Utilities",
+    "Description": "Lo que se está reproduciendo",
+    "Icon": "media-default-album",
+    "Id": "com.dns10011.musica",
+    "License": "GPL-2.0+",
+    "Name": "Música (cristal)",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}
