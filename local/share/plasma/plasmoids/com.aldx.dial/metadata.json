@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "aldx" }],
+    "Category": "Date and Time",
+    "Description": "Reloj analógico con esfera de minutos y subesfera de horas",
+    "Icon": "clock",
+    "Id": "com.aldx.dial",
+    "License": "GPL-2.0+",
+    "Name": "Reloj esfera",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

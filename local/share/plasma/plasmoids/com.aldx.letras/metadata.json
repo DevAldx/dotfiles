@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "aldx" }],
+    "Category": "Multimedia",
+    "Description": "Reproductor con portada y letras sincronizadas (lrclib.net)",
+    "Icon": "media-default-album",
+    "Id": "com.aldx.letras",
+    "License": "GPL-2.0+",
+    "Name": "Música con letras",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

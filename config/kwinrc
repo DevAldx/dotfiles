@@ -1,21 +1,58 @@
 [Desktops]
-Id_1=b2131d6e-f9a4-43ed-bc87-d5f278a4e2e4
-Number=1
+Id_1=47f8d2d8-5846-4597-94b6-4eea7e20eb26
+Id_2=0b0b77ee-ecd7-42c0-ab99-5c2585e8ac99
+Id_3=536154b0-ba5d-4f4f-a58a-a0bbae1d2c9e
+Id_4=5bcfa760-fa46-4f5f-9ce5-6cf04805ed69
+Id_5=d61d0cd9-65e6-46f5-a40f-e537b4ed1551
+Name_2=2
+Name_3=3
+Name_4=4
+Name_5=5
+Number=5
 Rows=1
 
 [Effect-Blur]
-BlurStrength=1
-NoiseStrength=0
+BlurStrength=8
+NoiseStrength=2
 enabled=false
+
+[Effect-better_blur_dx]
+BlurDecorations=true
+BlurDocks=false
+BlurMatching=true
+BlurMenus=true
+BlurNonMatching=false
+BlurStrength=9
+CornerRadius=7
+NoiseStrength=1
+WindowClasses=org.kde.dolphin\ndolphin\norg.kde.konsole\nkonsole\norg.kde.kate\nkate\norg.kde.kwrite\nkwrite\nsystemsettings\norg.kde.systemsettings\nAlacritty\norg.kde.ark\nark\norg.kde.gwenview\ngwenview\norg.kde.spectacle\nspectacle\norg.kde.discover\nplasma-discover\norg.kde.partitionmanager\npartitionmanager\nkvantummanager\norg.kde.okular\nokular\norg.kde.filelight\nfilelight\norg.kde.kcalc\nkcalc\norg.kde.elisa\nelisa
 
 [Effect-translucency]
 Inactive=100
 MoveResize=85
 
 [Plugins]
+better_blur_dxEnabled=true
 blurEnabled=false
+contrastEnabled=true
 translucencyEnabled=false
-wobblywindowsEnabled=false
+wobblywindowsEnabled=true
+
+[Tiling][0b0b77ee-ecd7-42c0-ab99-5c2585e8ac99][0df5936e-84ef-48f1-b53f-553af0ab4c28]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][47f8d2d8-5846-4597-94b6-4eea7e20eb26][0df5936e-84ef-48f1-b53f-553af0ab4c28]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][536154b0-ba5d-4f4f-a58a-a0bbae1d2c9e][0df5936e-84ef-48f1-b53f-553af0ab4c28]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][5bcfa760-fa46-4f5f-9ce5-6cf04805ed69][0df5936e-84ef-48f1-b53f-553af0ab4c28]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][b2131d6e-f9a4-43ed-bc87-d5f278a4e2e4][]
 padding=4
@@ -25,13 +62,17 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][d61d0cd9-65e6-46f5-a40f-e537b4ed1551][0df5936e-84ef-48f1-b53f-553af0ab4c28]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Xwayland]
 Scale=1
 XwaylandEisNoPromptApps=python3,xdotool
 
 [org.kde.kdecoration2]
 BorderSize=Normal
-ButtonsOnLeft=M
+ButtonsOnLeft=
 ButtonsOnRight=IAX
 library=org.kde.kwin.aurorae.v2
-theme=__aurorae__svg__Vidrio
+theme=__aurorae__svg__MintRojo

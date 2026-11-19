@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "aldx" }],
+    "Category": "System Information",
+    "Description": "CPU, RAM y temperatura en texto para la barra",
+    "Icon": "utilities-system-monitor",
+    "Id": "com.aldx.stats",
+    "License": "GPL-2.0+",
+    "Name": "Estadísticas de barra",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

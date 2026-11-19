@@ -1,0 +1,14 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [{ "Name": "aldx" }],
+    "Category": "Windows and Tasks",
+    "Description": "Escritorios virtuales con una Miku distinta en cada número",
+    "Icon": "user-desktop",
+    "Id": "com.aldx.mikupager",
+    "License": "GPL-2.0+",
+    "Name": "Miku Pager",
+    "Version": "1.0"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}
